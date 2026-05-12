@@ -110,6 +110,18 @@ A few things worth exploring with more time or better data:
 - **Statistical significance** — the pricing spread analysis is descriptive. A proper test (e.g. ANOVA across regions for each sub-category) would confirm whether the differences are statistically meaningful or just noise from small sample sizes, especially for low-volume sub-categories like Copiers (66 total transactions).
 
 ---
+## SQL Files
+
+This project includes standalone SQL files extracted from the DuckDB workflow used in the Python analysis pipeline.
+
+The SQL covers:
+- Regional KPI aggregation
+- Revenue breakdowns by category and region
+- Pricing inconsistency analysis
+- Transaction volume distribution
+- Revenue gap attribution using counterfactual pricing logic
+
+DuckDB was used within Google Colab to run the analytical SQL queries and generate output tables for downstream visualization and dashboarding.
 
 ## Repo Structure
 
